@@ -1,0 +1,7 @@
+body { 
+    background: rgb(99, 39,120);
+}
+.form-controle :focus {
+    box-shadow: gold;
+    border-color: #ba68c8;
+}
