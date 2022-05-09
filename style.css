@@ -1,7 +1,35 @@
-body { 
-    background: rgb(99, 39,120);
-}
-.form-controle :focus {
-    box-shadow: gold;
-    border-color: #ba68c8;
+
+body{ 
+  
+    width: 2000px  ;
+    max-width: 100vh;
+   
+    background-image:url(../download.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+
+ .x{
+     width: 200px;
+     height: 200px;
+     border: 2px black solid;
+     background-image: url(../background.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding-left: 5px;
+     padding-bottom: 80px;
+     margin-left: 75%;
+     margin-right: 25%;
+     margin-top: 100px;
+
+    }
+
+h3{   
+     background-color:yellow;
+  }
+
+  
+@media only screen and (min-width:1000px)and (max-width :1200px){
+
 }
